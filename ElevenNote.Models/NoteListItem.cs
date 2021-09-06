@@ -14,5 +14,7 @@ namespace ElevenNote.Models
 
         [Display(Name="Created")]
         public DateTimeOffset CreatedUtc { get; set; }
+        [Display(Name ="Category")]
+        public string CategoryName { get; set; }
     }
 }
